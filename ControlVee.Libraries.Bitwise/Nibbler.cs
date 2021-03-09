@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Globalization;
 
 namespace ControlVee.Libraries.Bitwise
 {
-    public class Nibbler
+    public static class Nibbler
     {
+        // Why is this considered an extension method?
+
         /// <summary>
         /// Extracts a nibble from a large number.
         /// </summary>
